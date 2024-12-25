@@ -34,7 +34,10 @@ public class BrowserCommandExamples {
             System.out.println("Current URl is not same as the mentioned url");
         }
     }
-
+@Test
+    public void getPageSource() throws InterruptedException {
+        System.out.println(driver.getPageSource());
+    }
 @AfterSuite
     public void closeChromeBrowser() {
         //driver.close(); only one browser not whole chrome
