@@ -41,6 +41,7 @@ public class BrowserCommandExamples {
 @AfterSuite
     public void closeChromeBrowser() {
         //driver.close(); only one browser not whole chrome
+          //driver.quit(); the whole browser will be closed if multiple browser is open
           driver.quit();
     }
 }
