@@ -39,7 +39,7 @@ public class CrossBrowserInit {
     @Test
 
     public void openUrl () throws InterruptedException {
-        driver.get("https://www.cricbuzz.com/ ");
+        driver.get("https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php");
         Thread.sleep(15000);
 
 

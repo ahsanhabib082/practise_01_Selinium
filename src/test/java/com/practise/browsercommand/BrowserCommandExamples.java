@@ -14,6 +14,7 @@ public class BrowserCommandExamples {
     WebDriver driver;
 
 
+
     @BeforeSuite
     public void startChromeBrowser() {
         driver = new ChromeDriver();
